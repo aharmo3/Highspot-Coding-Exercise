@@ -2,6 +2,7 @@
 
 ## A few notes
 Thank you for considering me for a developer role at Highspot! :blush:
+
 If there are any questions or feedback, feel free to contact me at aharmo3@gmail.com. 
 
 This application was built with Angular 6. My team is ramping up on this technology and this coding exercise presented the opportunity for me to 'geek out' and have some fun!
@@ -25,4 +26,4 @@ A few items that I was not able to complete but would consider important for a r
 
 ## Known Issues
 * When running the ng build -prod command, the angular cli throws a very vague error that I am researching. 
-* Intermittenly I was seeing a error regarding the card interface.
+* Intermittently I was seeing a error regarding the card interface. Please let me know if this occurs. I believed I fix the issue and it may be a caching issue on my localmachine. 
