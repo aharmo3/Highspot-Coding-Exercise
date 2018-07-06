@@ -6,15 +6,13 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 
 import { CardService } from './card.service';
-import { InfiniteScrollerDirective } from './infinite-scroller.directive';
 import { InfiniteScrollModule } from 'ngx-infinite-scroll';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent,
-    InfiniteScrollerDirective
+    CardComponent
   ],
   imports: [
     BrowserModule,
