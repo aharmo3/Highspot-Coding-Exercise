@@ -7,13 +7,13 @@ import { Card } from './interfaces/card.interface';
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
-  title = 'app';
+
   pageNum = 1 ;
   cardArray = [];
   count: number;
   cards: Card[];
   message: string;
-  isLimit = false;
+
   constructor(private cardService: CardService) { }
 
 
@@ -35,7 +35,7 @@ export class AppComponent implements OnInit {
     if (this.pageNum <= 10) {
       this.getCards(this.pageNum);
     } else {
-      this.message = 'All Done for now!';
+      this.message = `That's it! No more cards.`;
     }
   }
 

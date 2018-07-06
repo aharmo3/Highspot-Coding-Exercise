@@ -1,4 +1,5 @@
-<article class="card-deck" infiniteScroll
+
+<section class="card-deck container" infiniteScroll
       [infiniteScrollDistance]="2"
       [infiniteScrollThrottle]="50"
       (scrolled)="onScroll()"
@@ -6,20 +7,22 @@
       immediateCheck="true"> 
 
 
-  <div class="card" *ngFor="let card of cards" >
-    <div class="card-img-container">
+  <article class="card" *ngFor="let card of cards" >
+    <figure class="card-img-container">
       <img class="img-fluid" [src]="card.imageUrl" [alt]="card.name">
-    </div>
+    </figure>
 
     <div class="card-block">
-      <div class="card-set"><i class="fas fa-chess-king"></i> {{card.set}}</div>
-          <h2 >{{card.name}}</h2>
-          <div class="card-author arrow_box-up">{{card.artist}}</div>
+      <h4 class="card-set"><i aria-hidden="true" class="fas fa-chess-king"></i> {{card.set}}</h4>
+          <h2>{{card.name}}</h2>
+          <h3 class="card-author">{{card.artist}}</h3>
       </div>
-  </div>
+  </article>
         
-  <p>{{message}}</p>
-</article>
+  <p class="message">{{message}}</p>
+</section>
+
+
 
 
 
