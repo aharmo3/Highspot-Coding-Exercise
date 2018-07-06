@@ -1,7 +1,7 @@
 
 
 export interface Card {
-    cards: Array<CardDetails>;
+    cards: CardDetails[];
 }
 
  export interface CardDetails {

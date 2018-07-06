@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CardService } from './app.service';
 import { Card } from './interfaces/card.interface';
-/**
- * @fileoverview added by tsickle
- * @suppress {checkTypes} checked by tsc
- */
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html'
@@ -29,7 +26,6 @@ export class AppComponent implements OnInit {
           });
         this.cards = this.cardArray;
         this.count = this.cards.length;
-        console.log(this.count);
       }, error => {console.error(error); });
   }
 
