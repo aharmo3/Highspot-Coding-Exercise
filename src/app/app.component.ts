@@ -1,14 +1,13 @@
-import { Component } from '@angular/core';
-import { CardService } from './card.service';
-
+import { Component, OnInit } from '@angular/core';
+import { CardService } from './app.service';
+import { Card } from './interfaces/card.interface';
 /**
  * @fileoverview added by tsickle
  * @suppress {checkTypes} checked by tsc
  */
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
   title = 'app';
@@ -45,6 +44,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.getCards();
+    this.getCards(this.pageNum);
   }
 }
