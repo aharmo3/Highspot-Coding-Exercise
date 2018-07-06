@@ -1,14 +1,13 @@
-#AMBER'S NOTES
 
-Normally I would not use a Framework for a smaller project. 
-I wanted to demonstrate that I have familary with UI frameworks and just have fun with it. 
-
-
-For help with infinate scroller I used: https://codeburst.io/angular-2-simple-infinite-scroller-directive-with-rxjs-observables-a989b12d4fb1
 
 # TheGathering
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+
+## Installing
+
+Download Repo and run `npm install` for dependencies. The application is built with angular 6 and I used [ngx-infinite-scroll](https://www.npmjs.com/package/ngx-infinite-scroll) for the inifinate scrolling. 
+
 
 ## Development server
 
