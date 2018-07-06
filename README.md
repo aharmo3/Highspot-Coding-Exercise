@@ -20,7 +20,7 @@ A few items that I was not able to complete but would consider important for a r
 
 ## Getting up and Going
 * Clone Repo
-* Run `aharmo3.github.io && npm install`
+* Run `Highspot-Coding-Exercise && npm install`
 * Run `ng serve` and navigate to `http://localhost:4200/`
 
 ## Known Issues
